@@ -1,0 +1,217 @@
+body{
+	background:url("../assets/bg.jpg");
+}
+ul{
+	padding:0px;
+	margin:0px;
+	list-style: none;
+}
+li p{
+	padding: 0px;
+	margin-left:20px;
+	margin-top: 8px;
+	font-weight: bold;
+}
+.container{
+	width:800px;
+	margin-left:300px;
+	margin-right:300px;
+
+}
+#header{
+	height:100px;
+}
+
+#subscribe{
+	color:white;
+	text-decoration: none;
+	float:right;
+	margin-right: 300px;
+
+
+
+}
+#media{
+	display:inline;
+	width:20%;
+	margin-left: 80%
+}
+
+.media{
+	display:inline;
+	color:white;
+	height: 50px;
+	width: 50px;
+	padding:0px;
+	text-align: right;
+}	
+#menu{
+	clear:both;
+	width:100%;
+}
+.menu{
+	text-transform: uppercase;
+	float:left;
+	display:inline;
+	width:200px;
+	height:30px;
+	background: red;
+	margin-top:50px;
+	border-bottom:5px solid grey;
+}
+
+#bigpic{
+	background: url(../assets/top-image.png) no-repeat;
+	width:100%;
+	height:300px;
+	border:10px solid white;
+	clear:both;
+	box-sizing: border-box;
+	/*outline-bottom:10px solid grey;
+*/	position:relative;
+	display: block;
+}
+
+#checkered{
+	background: url(../assets/grid.png);
+	position:absolute;
+	display:block;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	opacity: .4;
+}
+
+#logo{
+	background: url(../assets/peralta-logo.png) no-repeat;
+	position: absolute;
+	display: block;
+	top:30px;
+	left:20px;
+	right:200px;
+	bottom:0px;
+}
+
+#blog{
+	display:flex;
+	justify-content: space-between;
+	width:100%;
+	height:300px;
+	margin-top:50px;
+}
+.post{
+	width:250px;
+	height:250px;
+	background: white;
+	display:inline-block;
+	padding:5px;
+	border-bottom: 5px solid grey;
+}
+
+#skater{
+	width:100%;
+	height:300px;
+	background: red;
+	margin-bottom: 20px;
+}
+
+#lance, #rodney{
+	width:250px;
+	height:140px;
+	background: grey;
+	border:3px solid white;
+	display:inline-block;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	padding: 0px; 
+	float:left;
+
+}
+#tommy{
+	width:250px;
+	height:290px;
+	background: grey;
+	display: inline-block;
+	float:right;
+	border:3px solid white;
+	padding: 0px 3px;
+}
+
+#steve{
+	width:510px;
+	background: grey;
+	border:3px solid white;
+	height:140px;
+	display: inline-block;
+	padding: 0 6px;
+}
+
+#boards{
+	width:100%;
+	height:260px;
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	padding:0px 10px;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+}
+
+.boards{
+	width:70px;
+	height:240px;
+	margin-top: 10px;
+	float:left;
+}
+
+#contact{
+	width: 100%;
+	height: 350px;
+	background: white;
+	margin-bottom: 50px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#contactinfo{
+	width:55%;
+	background: red;
+	height:250px;
+	box-sizing: border-box;
+	display: inline-block;
+	float: left
+}
+
+#contactform{
+	width:45%;
+	height:300px;
+	background: blue;
+	display: inline-block;
+}
+
+h3{
+	text-align: center;
+}
+
+.forms{
+	margin-bottom: 5px;
+	float: right;
+	display: block;
+}
+.forms li input{
+	margin-bottom: 10px;
+	width: 300px;
+}
+.forms li textarea{
+	width:300px;
+	height:75px;
+}
+
+button{
+	margin-top: 30px;
+	width:200px;
+	float: right;
+	background: red;
+	margin-right: 10px;
+}
